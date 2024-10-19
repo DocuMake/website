@@ -1,0 +1,9 @@
+title: DocuMake
+description: >
+  A Generative Documentation tool written in Kotlin by Calculus Games.
+
+baseurl: ""
+url: "https://documake.calcugames.xyz"
+github_username: DocuMake
+
+markdown: kramdown

@@ -1,0 +1,45 @@
+@use "variables" as *;
+
+header {
+    min-height: 7vh;
+    background: $bg-gradient;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: auto;
+
+    .header-links {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        width: 100%;
+        position: relative;
+    
+        column-gap: 2vw;
+    }
+
+    .header-link-img {
+        height: 3.5vh;
+        width: auto;
+    
+        min-height: 16px;
+        min-width: 16px;
+        max-height: 64px;
+        max-width: 64px;
+    
+        margin-right: 0.2vw;
+        border-radius: 5%;
+        transition: transform 0.5s ease-in-out;
+    }
+
+    .header-link-img:hover {
+        transform: scale(1.2);
+        transition: transform 0.3s ease-in-out;
+    }
+}
+
+
+
+
+

@@ -1,0 +1,9 @@
+- name: Discord
+  img: /assets/links/discord.png
+  url: https://discord.gg/WDzuyqVwTX
+- name: GitHub
+  img: /assets/links/github.png
+  url: https://github.com/DocuMake
+- name: Calculus Games
+  img: https://cdn.calcugames.xyz/logo.png
+  url: https://calcugames.xyz

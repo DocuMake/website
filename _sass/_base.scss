@@ -1,0 +1,23 @@
+@use "variables" as *;
+
+html {
+    overflow-y: scroll;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    color: $text-color;
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+    min-height: 100%;
+}
+
+html, body {
+    overflow-x: hidden;
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    background: $bg;
+    margin: 0;
+    padding: 0;
+}

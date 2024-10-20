@@ -7,3 +7,10 @@ url: "https://documake.calcugames.xyz"
 github_username: DocuMake
 
 markdown: kramdown
+
+sass:
+  style: compressed
+  sass_dir: _sass
+  sourcemap: always
+  quiet_deps: false
+  verbose: false

@@ -1,3 +1,5 @@
 .vscode/
 .idea/
 Gemfile.lock
+_site/
+.jekyll-cache/
